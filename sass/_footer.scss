@@ -1,0 +1,23 @@
+.footer-container{
+    display: flex;
+    height: 200px;
+    background-color: rgb(80, 41, 116);
+    flex-direction: row;
+    justify-content: center;
+    .footer-container__img{
+        margin-top: 55px;
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+    .footer-container__divlist{
+        margin-top:  50px;
+        .footer-container-divlist__ul-li{
+            margin-top: 10px;
+            .facebook-icon{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

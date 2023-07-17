@@ -13,21 +13,6 @@ ul {
   list-style: none;
 }
 
-.heading {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.heading .navbar {
-  width: 100%;
-  z-index: 100;
-  background-color: rgb(80, 41, 116);
-}
-.heading .logo-nav {
-  width: 32px;
-  height: 32px;
-}
-
 .body-index {
   display: flex;
   background-color: black;
@@ -104,6 +89,21 @@ ul {
 .footer-container .footer-container__divlist .footer-container-divlist__ul-li .facebook-icon {
   width: 20px;
   height: 20px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.heading .navbar {
+  width: 100%;
+  z-index: 100;
+  background-color: rgb(80, 41, 116);
+}
+.heading .logo-nav {
+  width: 32px;
+  height: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */
