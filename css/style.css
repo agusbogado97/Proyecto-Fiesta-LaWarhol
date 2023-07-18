@@ -35,30 +35,31 @@ ul {
   display: flex;
   margin-top: 50px;
   justify-content: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: fantasy;
   color: white;
 }
 .body-index .section-warhol__subt-box {
   display: flex;
-  margin-top: 100px;
+  margin-top: 25px;
   justify-content: center;
 }
 .body-index .section-warhol__subt {
   display: block;
-  font-family: "Times New Roman", Times, serif;
-  font-size: x-large;
+  font-family: cursive;
+  font-size: large;
   color: white;
   border: solid 3px violet;
   border-radius: 15px;
-  width: 65%;
+  width: 55%;
   text-align: center;
+  padding: 15px 15px 15px 15px;
 }
 
 .card-section-warhol {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   background-image: url(https://img.freepik.com/premium-photo/lgbt-flag-symbol-lgbt-day_360749-4145.jpg);
 }
@@ -66,24 +67,35 @@ ul {
   width: 80%;
   background-color: rgb(80, 41, 116);
 }
+.card-section-warhol .card .card-title {
+  color: black;
+  font-family: fantasy;
+}
+.card-section-warhol .card .card-text {
+  color: black;
+  font-family: cursive;
+}
 
 .footer-container {
   display: flex;
   height: 200px;
   background-color: rgb(80, 41, 116);
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
-.footer-container .footer-container__img {
-  margin-top: 55px;
+.footer-container .footer-container__divlist {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.footer-container .footer-container__divlist .footer-container__img {
   display: flex;
   width: 100px;
   height: 100px;
 }
-.footer-container .footer-container__divlist {
-  margin-top: 50px;
-}
 .footer-container .footer-container__divlist .footer-container-divlist__ul-li {
+  color: black;
   margin-top: 10px;
 }
 .footer-container .footer-container__divlist .footer-container-divlist__ul-li .facebook-icon {
@@ -91,6 +103,20 @@ ul {
   height: 20px;
 }
 
+.footer-container-copi {
+  display: flex;
+  justify-content: end;
+  margin-top: 60px;
+  color: white;
+}
+
+@media (max-width: 380px) {
+  .footer-container-copi {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+  }
+}
 .heading {
   display: flex;
   flex-direction: column;
@@ -104,6 +130,17 @@ ul {
 .heading .logo-nav {
   width: 32px;
   height: 32px;
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 620px) {
+  .banner {
+    margin-top: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

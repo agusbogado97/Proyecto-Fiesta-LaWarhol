@@ -1,23 +1,41 @@
 .footer-container{
     display: flex;
     height: 200px;
-    background-color: rgb(80, 41, 116);
-    flex-direction: row;
+    background-color: $fondo-violeta;
+    flex-direction: column;
     justify-content: center;
-    .footer-container__img{
-        margin-top: 55px;
-        display: flex;
-        width: 100px;
-        height: 100px;
-    }
     .footer-container__divlist{
-        margin-top:  50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top:  100px;
+        .footer-container__img{
+            display: flex;
+            width: 100px;
+            height: 100px;
+        }
         .footer-container-divlist__ul-li{
+            color: black;
             margin-top: 10px;
             .facebook-icon{
                 width: 20px;
                 height: 20px;
             }
         }
+    }
+}
+
+.footer-container-copi {
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+    color: white;
+}
+
+@media (max-width: 380px){
+    .footer-container-copi {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
     }
 }

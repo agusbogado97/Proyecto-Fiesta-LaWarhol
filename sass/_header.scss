@@ -5,10 +5,22 @@
     .navbar {
         width: 100%;
         z-index: 100;
-        background-color: rgb(80, 41, 116);
+        background-color: $fondo-violeta;
     }
     .logo-nav {
         width: 32px;
         height: 32px;
+    }
+}
+
+@media (max-width:1200px ){
+    .banner {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:620px){
+    .banner {
+        margin-top: 60px;
     }
 }
