@@ -6,5 +6,18 @@ $fondo-img-lgbt: url(https://img.freepik.com/premium-photo/lgbt-flag-symbol-lgbt
 @import "footer";
 @import "header";
 
+//Galería de fotos
 
+.carrousel-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.carrousel-section__container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+}
 
